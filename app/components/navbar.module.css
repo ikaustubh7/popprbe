@@ -1,0 +1,184 @@
+.title {
+  font-family: antique-olive, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 40px;
+  font-weight: 1000;
+  color: #00d9b8;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.06em;
+}
+
+.text {
+  cursor: pointer;
+  --tw-bg-opacity: 1;
+  line-height: inherit;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+
+  font-size: 1.125rem;
+}
+
+
+.bglayercontainer{
+  
+  
+  left: 0;
+  bottom: -1x;
+  z-index: -1;
+  width: 50px;
+  height: 50px; /* Adjust this height as needed */
+  color: violet;
+  position: relative;
+  background-color: red;
+  border-radius: 9999px;
+  
+}
+
+
+
+
+
+
+
+
+.textborder:hover {
+  /*
+  width: 200px;
+  height: 200px;
+  */
+  cursor: pointer;
+  border: 2px solid #a374ff; /* Start with a #a374ff border */
+  border-radius: 9999px; /* Creates a circular shape */
+  animation: snakeBorder 0.5s linear 1; /* Apply animation */
+}
+@keyframes snakeBorder {
+  0% {
+    border-top-color: #0067ff; /* Initial border color */
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  5% {
+    border-top-color: #a374ff;
+    border-right-color: #7f00ff; /* Color change as snake moves */
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  10% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #eb00a4; /* Color change as snake moves */
+    border-left-color: #a374ff;
+  }
+  15% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #0067ff; /* Color change as snake moves */
+  }
+  20% {
+    border-top-color: #0067ff; /* Initial border color */
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  25% {
+    border-top-color: #a374ff;
+    border-right-color: #7f00ff; /* Color change as snake moves */
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  30% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #eb00a4; /* Color change as snake moves */
+    border-left-color: #a374ff;
+  }
+  35% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #0067ff; /* Color change as snake moves */
+  }
+  40% {
+    border-top-color: #0067ff; /* Initial border color */
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  45% {
+    border-top-color: #a374ff;
+    border-right-color: #7f00ff; /* Color change as snake moves */
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  50% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #eb00a4; /* Color change as snake moves */
+    border-left-color: #a374ff;
+  }
+  55% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #0067ff; /* Color change as snake moves */
+  }
+  60% {
+    border-top-color: #0067ff; /* Initial border color */
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  65% {
+    border-top-color: #a374ff;
+    border-right-color: #7f00ff; /* Color change as snake moves */
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  70% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #eb00a4; /* Color change as snake moves */
+    border-left-color: #a374ff;
+  }
+  75% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #0067ff; /* Color change as snake moves */
+  }
+  80% {
+    border-top-color: #0067ff; /* Initial border color */
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  85% {
+    border-top-color: #a374ff;
+    border-right-color: #7f00ff; /* Color change as snake moves */
+    border-bottom-color: #a374ff;
+    border-left-color: #a374ff;
+  }
+  90% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #eb00a4; /* Color change as snake moves */
+    border-left-color: #a374ff;
+  }
+  95% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #0067ff; /* Color change as snake moves */
+  }
+  100% {
+    border-top-color: #a374ff;
+    border-right-color: #a374ff;
+    border-bottom-color: #a374ff;
+    border-left-color: #a37aff; /* Color change as snake moves */
+  }
+}

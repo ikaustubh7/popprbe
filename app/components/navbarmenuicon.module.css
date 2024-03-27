@@ -1,0 +1,25 @@
+.bglayer1,
+.bglayer2,
+.bglayer3 {
+
+ 
+}
+/* Apply transition to all layers */
+.Menuicon:hover {
+  cursor: pointer;
+  z-index:0;
+}
+
+
+.bglayercontainer:hover{
+  transform: translateY(-40px);
+  background-color: yellow;
+}
+
+.Menuicon:hover .bglayer2 {
+  transform: translateY(-40px); /* Adjust the value as needed */
+}
+
+.Menuicon:hover .bglayer3 {
+  transform: translateY(-60px); /* Adjust the value as needed */
+}
