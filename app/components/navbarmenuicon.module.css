@@ -23,11 +23,15 @@
   z-index:0;
   position:relative;
   box-sizing:border-box;
-  top:0;
+  top:54px;
   left:0;
   width:54px;
   height:54px;
-  background-colour:black;
+  background-colour:white;
+  /*clip-path: circle(50% at 50% 0%);*/
+
+
+
   /*visibility:hidden;*/
 
  
@@ -47,6 +51,7 @@
   height:54px;
   border-radius:2rem;
   z-index:-4;
+  
   
 }
 .bglayer2{
