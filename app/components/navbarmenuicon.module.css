@@ -1,25 +1,126 @@
-.bglayer1,
-.bglayer2,
-.bglayer3 {
+
+/* Apply transition to all layers */
+
+
+
+
+
+
+
+.Menuicon:hover {
+  cursor: pointer;
+  position:relative;
+  
+  
+ 
+}
+
+.bglayercontainer {
+  
+  
+
+  
+  z-index:0;
+  position:relative;
+  box-sizing:border-box;
+  top:0;
+  left:0;
+  width:54px;
+  height:54px;
+  background-colour:black;
+  /*visibility:hidden;*/
+
+ 
+ 
+
 
  
 }
-/* Apply transition to all layers */
-.Menuicon:hover {
-  cursor: pointer;
-  z-index:0;
+
+.bglayer1 {
+  background-color:rgb(255, 208,116);
+  position:absolute;
+  
+  top:0;
+  left:0;
+  width:54px;
+  height:54px;
+  border-radius:2rem;
+  z-index:-4;
+  
+}
+.bglayer2{
+  background-color:rgb(23,241, 209); 
+  position:absolute;
+  
+  top:0;
+  left:0;
+  width:54px;
+  height:54px;
+  border-radius:2rem;
+  z-index:-4;
+
+
+}
+.bglayer3{
+  background-color:rgb(163, 116, 255); 
+  position:absolute;
+  
+  top:0;
+  left:0;
+  width:54px;
+  height:54px;
+  border-radius:2rem;
+  z-index:-4;
+
+
 }
 
 
-.bglayercontainer:hover{
-  transform: translateY(-40px);
-  background-color: yellow;
+.bgmask{
+  position:absolute;
+  /*clip-path: circle(50% at 50% 0);*/
+  top:0;
+  left:0;
+  height:108px;
+  width:54px;
+  background-colour:white;
+  z-index:0
+
+}
+
+/*
+.bglayer1hover {
+  
+  
+  transition-delay:0s;
+  transform:translateY(54px);
+}
+
+/*
+.Menuicon:hover .bglayer1, .Menuicon:hover .bglayer2, .Menuicon:hover .bglayer3 {
+  z-index: 0;
+  transition: transform 1.3s cubic-bezier(.19,1,.22,1), opacity .3s linear;
+}
+
+.bglayer1hover {
+  transition: transform 1.3s cubic-bezier(.19,1,.22,1), opacity .3s linear;
+  
+  transition-delay:0s;
 }
 
 .Menuicon:hover .bglayer2 {
-  transform: translateY(-40px); /* Adjust the value as needed */
+  transition-delay:.1s;
+ 
 }
 
 .Menuicon:hover .bglayer3 {
-  transform: translateY(-60px); /* Adjust the value as needed */
+  transition-delay:.2s;
+  
 }
+
+.Menuicon:hover .bglayercontainer{
+  background-color:red;
+}
+
+*/

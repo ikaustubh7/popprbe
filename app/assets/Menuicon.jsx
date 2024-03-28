@@ -2,7 +2,7 @@ import React from 'react';
 
 function Menuicon() {
   return (
-    <div>
+    <div   >
       <svg
 
  				fill="white" // Change fill to white        version="1.1"

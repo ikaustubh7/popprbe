@@ -2,7 +2,6 @@ import React from "react";
 import Menuicon from "../assets/Menuicon";
 import Getintouch from "../ui/getintouch/getintouch";
 import styles from "./navbar.module.css";
-import Menuiconanimate from "../ui/getintouch/menuicon/Menuiconanimate";
 import NavbarMenuicon from "./NavbarMenuicon";
 
 function Navbar() {
