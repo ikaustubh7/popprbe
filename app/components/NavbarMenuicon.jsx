@@ -14,7 +14,7 @@ function NavbarMenuicon() {
 
   return (
 
-    <div className='absolute  flex-col place-items-center   bg-[#201c1c]'>
+    <div className='z-10   absolute  flex-col place-items-center '>
      <div className={`rounded-full place-items-center   -z-1   pt-3  ${styles.Menuicon}`}  onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}    
      
      
