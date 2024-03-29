@@ -68,7 +68,7 @@ function VideoCard() {
 
 
 
-      <div  className='z-10   h-[490.662px] w-[618.662px] rounded-[34.1333px] mt-[108px] ml-[442px]    overflow-hidden bg-slate-400 absolute opacity-100 ' 
+      <div  className='z-10   h-[490.662px] w-[618.662px] rounded-[34.1333px] mt-[108px] ml-[442px] pb-10    overflow-hidden bg-slate-400 absolute opacity-100 ' 
        id="video-container"
       
       style={  {transform:`rotateX(${offsetX*45}deg) rotateY(${offsetY*45}deg)`}}
